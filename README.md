@@ -1,1 +1,1 @@
-# api-docs
+# studio-docs
