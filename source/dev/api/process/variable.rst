@@ -101,7 +101,7 @@
         "results": [
             {
                 "id": 1001,
-                "name": "测试",
+                "name": "变量1",
                 "type": "password", 
                 "visible": false,
                 "cuser": 18,
@@ -111,7 +111,7 @@
             },
             {
                "id": 1002,
-                "name": "测试",
+                "name": "变量2",
                 "type": "password",
                 "visible": false,
                 "cuser": 18,
@@ -121,7 +121,7 @@
             }
            {
                "id": 1003,
-                "name": "测试",
+                "name": "变量3",
                 "type": "password",
                 "visible": false,
                 "cuser": 18,
