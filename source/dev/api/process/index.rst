@@ -6,3 +6,5 @@ Process Document
    :glob:
 
    process
+   package
+   variable
