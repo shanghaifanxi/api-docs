@@ -8,3 +8,5 @@ Process Document
    process
    package
    variable
+   intact
+   logfile

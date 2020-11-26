@@ -1,8 +1,10 @@
-开发文档
+API文档
 =============================
 
 .. toctree::
    :maxdepth: 1
    :glob:
 
-   api/index
+   management/index
+   process/index
+   user/index
