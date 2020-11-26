@@ -216,3 +216,8 @@
         
         },
     ]   
+
+::
+
+    dataType分类: string, number, date, password, array, bool
+    elementType分类: input, textarea, checkbox,  select
