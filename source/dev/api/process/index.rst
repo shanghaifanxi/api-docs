@@ -5,4 +5,4 @@ Process Document
    :maxdepth: 1
    :glob:
 
-   create_process
+   process
