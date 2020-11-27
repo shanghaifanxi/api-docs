@@ -121,7 +121,7 @@
     ]   
         
     
-2、获取单个函数 API
+2、查询 API
 ----------------------------------------------------------------------------------------------------------
 
 **请求方式：**    GET（查询）
@@ -135,75 +135,89 @@
 
 **返回数据例子：**
 ::
-    {
-        "name": "code", 
-        "class": null, 
-        "namespace": "fxpa.fxprogramming", 
-        "title": "python代码块", 
-        "nodeType": "function", 
-        "description": "运行python代码块", 
-        "cls": 
+    [
         {
-            "icon": null, 
-            "color": null
-        },
-        "ports": 
-        {
-            "in": [
+            "title": "程序",
+            "decription": null,
+            "children":[
                 {
-                    "name": null, 
-                    "portType": "flow", 
-                    "title": null, 
-                    "dataType": null, 
-                    "value": null
-                }, 
-                {
-                    "name": "content", 
-                    "portType": "input", 
-                    "title": "代码块", 
-                    "dataType": "string", 
-                    "elementType": "textarea", 
-                    "value": null
-                }
-            ], 
-            "out": [
-            {
-                "name": null, 
-                "portType": "flow", 
-                "title": null, 
-                "dataType": null, 
-                "value": null
-            }
-            ]
-        }, 
-        "detailPanel": 
-        {
-            "common": [
-                {
-                    "name": "before", 
-                    "dataType": "number", 
-                    "elementType": "input",
-                    "value": 0,
-                    "title": "前置延时(秒)"
-                }, 
-                {
-                    "name": "after", 
-                    "dataType": "number", 
-                    "elementType": "input",
-                    "value": 0, 
-                    "title": "后置延时(秒)"
+                    "name": "code", 
+                    "class": null, 
+                    "namespace": "fxpa.fxprogramming", 
+                    "title": "python代码块", 
+                    "nodeType": "function", 
+                    "description": "运行python代码块", 
+                    "cls": 
+                    {
+                        "icon": null, 
+                        "color": null
+                    },
+                    "ports": 
+                    {
+                        "in": [
+                            {
+                                "name": null, 
+                                "portType": "flow", 
+                                "title": null, 
+                                "dataType": null, 
+                                "value": null
+                            }, 
+                            {
+                                "name": "content", 
+                                "portType": "input", 
+                                "title": "代码块", 
+                                "dataType": "string", 
+                                "elementType": "textarea", 
+                                "value": null
+                            }
+                        ], 
+                        "out": [
+                        {
+                            "name": null, 
+                            "portType": "flow", 
+                            "title": null, 
+                            "dataType": null, 
+                            "value": null
+                        }
+                        ]
+                    }, 
+                    "detailPanel": 
+                    {
+                        "common": [
+                            {
+                                "name": "before", 
+                                "dataType": "number", 
+                                "elementType": "input",
+                                "value": 0,
+                                "title": "前置延时(秒)"
+                            }, 
+                            {
+                                "name": "after", 
+                                "dataType": "number", 
+                                "elementType": "input",
+                                "value": 0, 
+                                "title": "后置延时(秒)"
+                            },
+                            {
+                                "name": "continueOnErr",
+                                "dataType": "bool", 
+                                "elementType": "checkbox", 
+                                "choices": [
+                                    True, 
+                                    False
+                                ], 
+                                "value": False, 
+                                "title": "错误继续执行"
+                            }
+                        ]
+                    }
                 },
-                {
-                    "name": "continueOnErr",
-                    "dataType": "bool", 
-                    "elementType": "checkbox", 
-                    "choices": [
-                        True, 
-                        False
-                    ], 
-                    "value": False, 
-                    "title": "错误继续执行"
-                }
             ]
-        }
-    }
+        
+        },
+    ]   
+
+::
+
+    dataType分类: string, number, date, password, array, bool
+    elementType分类: input, textarea, checkbox,  select
