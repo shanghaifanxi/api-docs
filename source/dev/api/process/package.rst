@@ -219,5 +219,5 @@
 
 ::
 
-    dataType分类: string, number, date, password, array, bool
+    dataType分类: string, number, date, password, array, bool, object
     elementType分类: input, textarea, checkbox,  select
