@@ -45,7 +45,7 @@
             "children":[
                 {
                     "name": "code", 
-                    "class": null, 
+                    "className": null, 
                     "namespace": "fxpa.fxprogramming", 
                     "title": "python代码块", 
                     "nodeType": "function", 
@@ -57,7 +57,7 @@
                     },
                     "ports": 
                     {
-                        "in": [
+                        "input": [
                             {
                                 "name": null, 
                                 "portType": "flow", 
@@ -74,7 +74,7 @@
                                 "value": null
                             }
                         ], 
-                        "out": [
+                        "output": [
                         {
                             "name": null, 
                             "portType": "flow", 
@@ -142,7 +142,7 @@
             "children":[
                 {
                     "name": "code", 
-                    "class": null, 
+                    "className": null, 
                     "namespace": "fxpa.fxprogramming", 
                     "title": "python代码块", 
                     "nodeType": "function", 
@@ -154,7 +154,7 @@
                     },
                     "ports": 
                     {
-                        "in": [
+                        "input": [
                             {
                                 "name": null, 
                                 "portType": "flow", 
@@ -171,7 +171,7 @@
                                 "value": null
                             }
                         ], 
-                        "out": [
+                        "output": [
                         {
                             "name": null, 
                             "portType": "flow", 
