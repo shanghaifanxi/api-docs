@@ -105,7 +105,7 @@
         "nodeList":[
             {
                 "id":"nnnnnn1",
-                "class":null,
+                "className":null,
                 "name":"findCoordinate",
                 "namespace":"fxpa.fximage",
                 "title":"查找图片坐标",
@@ -118,7 +118,7 @@
                     "color":null
                 },
                 "ports":{
-                    "in":[
+                    "input":[
                         {
                             "id":"pppp1",
                             "name":null,
@@ -132,7 +132,7 @@
                             }
                         }
                     ],
-                    "out":[
+                    "output":[
                         {
                             "id":"ppppp3",
                             "name":null,
@@ -200,3 +200,16 @@
     {
         "detail":"流程获取失败"
     }
+
+
+**nodeType分类**
+::
+    事件：event
+    功能：function
+    变量设置：variable_set
+    变量获取：variable_get
+    流程控制：programming
+    逻辑运算：operation
+
+
+
