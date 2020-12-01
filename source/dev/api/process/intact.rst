@@ -148,24 +148,32 @@
                     ]
                 },
                 "detailPanel":{
-                    "common":[
-                        {
-                            "name":"before",
-                            "dataType":"number",
-                            "elementType":"input",
-                            "value":null,
-                            "title":"Delay Before(secs)"
-                        }
-                    ],
-                    "options":[
-                        {
-                            "name":"confidence",
-                            "dataType":"float",
-                            "elementType":"input",
-                            "value":0.9,
-                            "title":"置信度"
-                        }
-                    ]
+                    "common":
+                    {
+                        title: 通用设置,
+                        formDatas: [
+                            {
+                                "name":"before",
+                                "dataType":"number",
+                                "elementType":"input",
+                                "value":null,
+                                "title":"Delay Before(secs)"
+                            }
+                        ] 
+                    }，
+                    
+                    "options": {
+                        title: 选项,
+                        formDatas: [
+                            {
+                                "name":"confidence",
+                                "dataType":"float",
+                                "elementType":"input",
+                                "value":0.9,
+                                "title":"置信度"
+                            }
+                        ]
+                    }
                 }
             }
         ],
