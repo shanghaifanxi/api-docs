@@ -86,33 +86,37 @@
                     }, 
                     "detailPanel": 
                     {
-                        "common": [
-                            {
-                                "name": "before", 
-                                "dataType": "number", 
-                                "elementType": "input",
-                                "value": 0,
-                                "title": "前置延时(秒)"
-                            }, 
-                            {
-                                "name": "after", 
-                                "dataType": "number", 
-                                "elementType": "input",
-                                "value": 0, 
-                                "title": "后置延时(秒)"
-                            },
-                            {
-                                "name": "continueOnErr",
-                                "dataType": "bool", 
-                                "elementType": "checkbox", 
-                                "choices": [
-                                    True, 
-                                    False
-                                ], 
-                                "value": False, 
-                                "title": "错误继续执行"
-                            }
-                        ]
+                        "common": 
+                        {
+                            title: 通用设置,
+                            formDatas: [
+                                {
+                                    "name": "before", 
+                                    "dataType": "number", 
+                                    "elementType": "input",
+                                    "value": 0,
+                                    "title": "前置延时(秒)"
+                                }, 
+                                {
+                                    "name": "after", 
+                                    "dataType": "number", 
+                                    "elementType": "input",
+                                    "value": 0, 
+                                    "title": "后置延时(秒)"
+                                },
+                                {
+                                    "name": "continueOnErr",
+                                    "dataType": "bool", 
+                                    "elementType": "checkbox", 
+                                    "choices": [
+                                        True, 
+                                        False
+                                    ], 
+                                    "value": False, 
+                                    "title": "错误继续执行"
+                                }
+                            ]
+                        }    
                     }
                 },
             ]
@@ -183,33 +187,38 @@
                     }, 
                     "detailPanel": 
                     {
-                        "common": [
-                            {
-                                "name": "before", 
-                                "dataType": "number", 
-                                "elementType": "input",
-                                "value": 0,
-                                "title": "前置延时(秒)"
-                            }, 
-                            {
-                                "name": "after", 
-                                "dataType": "number", 
-                                "elementType": "input",
-                                "value": 0, 
-                                "title": "后置延时(秒)"
-                            },
-                            {
-                                "name": "continueOnErr",
-                                "dataType": "bool", 
-                                "elementType": "checkbox", 
-                                "choices": [
-                                    True, 
-                                    False
-                                ], 
-                                "value": False, 
-                                "title": "错误继续执行"
-                            }
-                        ]
+                        
+                        "common":
+                        {
+                            title: 通用设置,
+                            formDatas: [
+                                {
+                                    "name": "before", 
+                                    "dataType": "number", 
+                                    "elementType": "input",
+                                    "value": 0,
+                                    "title": "前置延时(秒)"
+                                }, 
+                                {
+                                    "name": "after", 
+                                    "dataType": "number", 
+                                    "elementType": "input",
+                                    "value": 0, 
+                                    "title": "后置延时(秒)"
+                                },
+                                {
+                                    "name": "continueOnErr",
+                                    "dataType": "bool", 
+                                    "elementType": "checkbox", 
+                                    "choices": [
+                                        True, 
+                                        False
+                                    ], 
+                                    "value": False, 
+                                    "title": "错误继续执行"
+                                }
+                            ]
+                        }    
                     }
                 },
             ]
