@@ -3,3 +3,4 @@
    :glob:
 
    resource
+   robot
