@@ -197,6 +197,7 @@
                 "type":"string",
                 "scope":"flow",
                 "value":""
+                "user":""
             }
         ]
     }
