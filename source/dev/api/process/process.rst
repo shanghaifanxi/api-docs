@@ -166,7 +166,7 @@
 
 **请求方式：**    POST
 
-**请求地址：**    /api/process/process/save/
+**请求地址：**    /api/process/save/
 
 
 **输入参数（新增）：**
@@ -185,7 +185,7 @@
 
 **请求方式：**    POST
 
-**请求地址：**    /api/process/process/commit/
+**请求地址：**    /api/process/upload/
 
 
 **输入参数（新增）：**
@@ -208,7 +208,7 @@
 
 **请求方式：**    POST
 
-**请求地址：**    /api/process/process/execute/
+**请求地址：**    /api/process/execute/
 
 
 **输入参数（新增）：**
@@ -232,7 +232,7 @@
 
 **请求方式：**    POST
 
-**请求地址：**    /api/process/process/stop/123/
+**请求地址：**    /api/process/stop/123/
 
 ::
 
