@@ -12,7 +12,7 @@
 
 **请求方式：**   GET
 
-**请求地址：**   /api/robot/robot
+**请求地址：**   /api/control/robot
 
 
 **Content-Type：**
