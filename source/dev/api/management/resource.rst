@@ -12,7 +12,7 @@
 
 **请求方式：**   GET
 
-**请求地址：**   /api/management/resource
+**请求地址：**   /api/control/resource
 
 
 **Content-Type：**
