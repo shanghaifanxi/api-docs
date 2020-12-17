@@ -11,7 +11,7 @@
 
 **请求方式：**   GET（查询）
 
-**请求地址：**   /api/process/package/
+**请求地址：**   /api/nodes/package/
 
 
 **Content-Type：**
@@ -130,7 +130,7 @@
 
 **请求方式：**    GET（查询）
 
-**请求地址：**    /api/process/package/?search="code"
+**请求地址：**    /api/nodes/package/?search="code"
 ::
 
     请求地址中code为函数名

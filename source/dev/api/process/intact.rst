@@ -196,7 +196,8 @@
                 "name":"imagePath",
                 "type":"string",
                 "scope":"flow",
-                "value":""
+                "value":"",
+                "cuser":""
             }
         ]
     }
