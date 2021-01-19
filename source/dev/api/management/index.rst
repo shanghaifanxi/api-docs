@@ -4,3 +4,4 @@
 
    resource
    robot
+   inventory
